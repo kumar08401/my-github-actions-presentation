@@ -1,0 +1,12 @@
+name: tetsing
+on:
+ push:
+  branches: [master]
+
+jobs:
+  runs-on: ubuntu-latest
+  testing:
+    steps:
+       - name: testingstep
+         run: echo "date"
+    
