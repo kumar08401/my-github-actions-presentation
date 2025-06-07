@@ -34,7 +34,7 @@ jobs:
           GITHUB_CONTEXT: ${{ toJSON(github) }}
         run: | 
            echo "$GITHUB_CONTEXT"
-           echo ${{github.run_id}}
+           echo ${{github.run_number}}
       
   #step/job output variables
   job2:
